@@ -26,6 +26,7 @@ jinja2
 apscheduler
 colorama
 IMDbPY
+shortzy
 
 # Image and Video Processing
 opencv-python-headless==4.7.0.68
@@ -50,4 +51,5 @@ numpy
 # datetime               ← built into Python
 # python-math            ← not a valid PyPI package
 # shortzy                ← unknown/unavailable on PyPI
+
 
