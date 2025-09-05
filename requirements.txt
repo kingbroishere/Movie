@@ -1,45 +1,51 @@
+# Core Dependencies
 pyrofork==2.3.45
-tgcrypto 
-pymongo==4.8.0 
-motor==3.5.1 
-marshmallow==3.18.0 
-umongo==3.1.0 
-git+https://github.com/Joelkb/cinemagoer 
-search_engine_parser 
-wget 
-aiofiles 
-ffmpeg 
-requests 
-aiohttp  
-ujson 
-pyshorteners 
-datetime 
-pytz 
-python-math 
-speedtest-cli 
-shortzy 
-fuzzywuzzy 
-wheel 
-gunicorn==20.1.0 
-werkzeug==2.0.2 
-Flask 
-itsdangerous==2.0.1 
-python-Levenshtein 
- 
- 
-#jisshu 
-opencv-python-headless==4.7.0.68  
- python-dotenv==0.21.1  
- speedtest==0.0.1  
- humanize==4.6.0  
- Pillow==9.4.0  
- psutil==5.9.4  
- NumPy  
- wheel  
- dnspython==2.3.0 
-python-decouple 
-ffmpeg-python>=0.2.0 
- 
-jinja2 
-apscheduler 
+tgcrypto
+pymongo==4.8.0
+motor==3.5.1
+marshmallow==3.18.0
+umongo==3.1.0
+aiofiles
+ffmpeg-python>=0.2.0
+requests
+aiohttp
+ujson
+pyshorteners
+pytz
+speedtest-cli
+fuzzywuzzy
+wheel
+gunicorn==20.1.0
+werkzeug==2.0.2
+Flask
+itsdangerous==2.0.1
+python-Levenshtein
+dnspython==2.3.0
+python-decouple
+jinja2
+apscheduler
 colorama
+
+# Image and Video Processing
+opencv-python-headless==4.7.0.68
+Pillow==9.4.0
+
+# System and Utility Libraries
+python-dotenv==0.21.1
+speedtest==0.0.1
+humanize==4.6.0
+psutil==5.9.4
+numpy
+
+# ⚠️ Optional / Commented Out Due to Issues
+
+# This GitHub package lacks proper packaging (__version__) and causes build errors
+# git+https://github.com/Joelkb/cinemagoer
+
+# These packages are either not on PyPI, improperly packaged, or unnecessary
+# search_engine_parser  ← broken or unmaintained
+# wget                   ← likely not needed; use requests instead
+# ffmpeg                 ← system binary, not pip-installable
+# datetime               ← built into Python
+# python-math            ← not a valid PyPI package
+# shortzy                ← unknown/unavailable on PyPI
