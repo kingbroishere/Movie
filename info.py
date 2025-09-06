@@ -21,7 +21,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', '')
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6007179358 1034711464').split()]
 USERNAME = environ.get('USERNAME', "https://t.me/kingbroishere") # ADMIN USERNAME
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002894286980'))
-MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://https://t.me/movie_req_grp')
+MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/movie_req_grp')
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1003034407154').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
@@ -107,7 +107,7 @@ if 'DYNO' in environ:
     ON_HEROKU = True
 else:
     ON_HEROKU = False
-URL = environ.get("FQDN", "")
+URL = environ.get("FQDN", "https://movie-1-nz5h.onrender.com")
 
 #---------------------------------------------------------------
 #---------------------------------------------------------------
